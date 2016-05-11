@@ -1,4 +1,4 @@
-angular.module('pirates', [])
+angular.module('pirates', ['ngRoute'])
   .controller('PiratesController', function($scope) {
 
     $scope.math = 2+2;
